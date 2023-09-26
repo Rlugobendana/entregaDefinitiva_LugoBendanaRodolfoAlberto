@@ -1,0 +1,260 @@
+@use 'secundario';
+
+//variables//
+$heightUno: 300px;
+$heightDos: 580px;
+$widthUno: 350px;
+
+h1{
+    text-align: center;
+}
+
+h1:hover{ 
+color: blue;
+transition: 2s;
+}
+
+.imageUno{
+height: $heightUno;
+width: $widthUno;
+margin: 30px;
+}
+
+.gridone{
+    display: grid;
+    grid-template-areas: "item1 item2"
+    "item3 item4"
+    "item5 item6" 
+    ;
+    }
+
+.carousel-item{
+     height: $heightDos; }
+
+
+
+form{
+    margin-right: 50px;
+}
+
+p{
+    text-align: justify; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.parrafoUno{
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  body{
+    background-color: rgb(177, 231, 250);
+  }
+
+  li{
+    margin-left:45px;
+    margin-right: 40px;
+    display: inline-block;
+    justify-content: center;
+    font-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: white;}
+
+#img6{
+    height: 70%;
+    width: 60%;
+}
+.container-fluid{
+    background-color: rgb(35, 57, 199);
+}
+
+.nav-link{
+    color: white;
+}
+
+.formDos{
+    display: flex;
+    flex-direction: column;
+    // margin-left: 250px;
+}
+
+.formTres, .formCuatro{
+    display: flex;
+    flex-direction: row;
+    // margin-left: 250px;
+}
+
+.hprincipal{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.formUno{
+    width: 30%;
+    // background-color: rgb(41, 18, 157);
+    margin-left: 200px;
+}
+
+.contactanos{
+    display: grid;
+    grid-template-areas: "formUno img6" ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+// .formUno{
+//     background-color: azure;
+// }
+
+.Videos{
+display: grid;
+grid-template-areas:
+"videoUno videoDos";
+margin-left: 150px;
+margin-right: 90px;
+}
+
+.videoUno, .videoDos{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80%;
+    height: 400px;
+}
+
+
+@media (min-width: 200px) and (max-width: 1025px) {
+  
+    li{
+     font-size: 28px;
+   }
+   
+   h1, .hprincipal { font-size: 34px;
+       text-align: center;
+       margin-top: 20px;
+ 
+   }
+
+.gridone{
+display: flex;
+flex-direction: column;
+}
+
+.carousel-item{
+    height: 200px;
+}
+
+#carouselTres{
+    height: 200px;
+}
+
+.imageUno{
+    height: 350px;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p{
+    text-align: justify;
+    font-size: x-large;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.h4{
+    flex-direction: column;
+
+}
+
+.gridTres{
+    display: flex;
+    flex-direction: column;
+    }
+
+.imageTres{
+    height: 400px;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.imageCuatro{
+    height: 400px;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;  
+}
+
+h2{
+    font-size: 26px;
+}
+
+h1{text-align: center;
+color: blue;
+font-size: 30px;
+}
+
+.gridOne{
+    display: flex;
+    flex-direction: column;
+}
+
+.imageDos{
+    height: 400px;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;   
+}
+
+iframe{
+    width: 100%; 
+    height: 300px;
+}     
+ 
+h6{padding: 50px;
+
+}
+
+.Videos{
+ display: grid;
+ grid-template-areas: "videoUno"
+ "videoDos";
+ margin-right: 30px;
+ margin-left: 70px;
+
+ ;
+}
+
+.videoUno .videoDos{
+    width: 60%;
+}
+
+// .contactanos,  .formUno
+.formUno
+{
+    display: grid;
+    grid-template-areas: "formUno"
+    "formDos";
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 50px;
+    margin-bottom: 135px;
+}
+
+#img6{
+    display: none;
+    
+}
+       }
+
+  

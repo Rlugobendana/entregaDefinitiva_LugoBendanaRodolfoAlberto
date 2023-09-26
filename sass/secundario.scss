@@ -1,0 +1,62 @@
+//Variables
+
+$ImageDosHe: 250px;
+$ImageDosWi: 420px;
+$marginUno: 55px;
+$margintopUno: 55px;
+$margintopDos: 65px;
+
+
+.item30 .item22 .item25 .item27{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.gridOne{
+    display:grid;
+    grid-template-areas: "item30 item22"
+    "item23 item24"
+    "item25 item26"
+    "item27 item28";
+  }
+
+  .imageDos{
+height: $ImageDosHe;
+width: $ImageDosWi;
+margin: $marginUno;
+margin-top: 70px;
+width: 80%; 
+height: 70%;
+  }
+
+  .imageTres  {
+  margin: $marginUno;
+  height: 250px;
+  width: 300px;
+  margin-top: 95px;
+  }
+
+  .imageCuatro{
+    margin: $margintopDos; 
+    margin-top: 90px;
+  }
+
+
+  .gridTres{
+    display: grid;
+    grid-template-areas: "imageDos item15";
+    }
+
+ h2{
+  text-align: center;
+  margin-top: 15px;
+ }   
+
+ .videoUno{
+  margin-right: 200px;
+ }
+
+ iframe{
+  margin-right: 200px;
+ }
+
